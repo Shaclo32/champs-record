@@ -1,0 +1,202 @@
+
++-- canvacord@5.0.8
+| +-- @canvacord/assets@1.0.2
+| +-- canvas@2.6.1
+| | +-- nan@2.14.2 deduped
+| | +-- node-pre-gyp@0.11.0
+| | | +-- detect-libc@1.0.3
+| | | +-- mkdirp@0.5.5
+| | | | `-- minimist@1.2.5 deduped
+| | | +-- needle@2.6.0
+| | | | +-- debug@3.2.7
+| | | | | `-- ms@2.1.3
+| | | | +-- iconv-lite@0.4.24
+| | | | | `-- safer-buffer@2.1.2
+| | | | `-- sax@1.2.4
+| | | +-- nopt@4.0.3
+| | | | +-- abbrev@1.1.1
+| | | | `-- osenv@0.1.5
+| | | |   +-- os-homedir@1.0.2
+| | | |   `-- os-tmpdir@1.0.2
+| | | +-- npm-packlist@1.4.8
+| | | | +-- ignore-walk@3.0.3
+| | | | | `-- minimatch@3.0.4
+| | | | |   `-- brace-expansion@1.1.11
+| | | | |     +-- balanced-match@1.0.0
+| | | | |     `-- concat-map@0.0.1
+| | | | +-- npm-bundled@1.1.1
+| | | | | `-- npm-normalize-package-bin@1.0.1 deduped
+| | | | `-- npm-normalize-package-bin@1.0.1
+| | | +-- npmlog@4.1.2
+| | | | +-- are-we-there-yet@1.1.5
+| | | | | +-- delegates@1.0.0
+| | | | | `-- readable-stream@2.3.7
+| | | | |   +-- core-util-is@1.0.2
+| | | | |   +-- inherits@2.0.4 deduped
+| | | | |   +-- isarray@1.0.0
+| | | | |   +-- process-nextick-args@2.0.1
+| | | | |   +-- safe-buffer@5.1.2 deduped
+| | | | |   +-- string_decoder@1.1.1
+| | | | |   | `-- safe-buffer@5.1.2 deduped
+| | | | |   `-- util-deprecate@1.0.2
+| | | | +-- console-control-strings@1.1.0
+| | | | +-- gauge@2.7.4
+| | | | | +-- aproba@1.2.0
+| | | | | +-- console-control-strings@1.1.0 deduped
+| | | | | +-- has-unicode@2.0.1
+| | | | | +-- object-assign@4.1.1
+| | | | | +-- signal-exit@3.0.3
+| | | | | +-- string-width@1.0.2
+| | | | | | +-- code-point-at@1.1.0
+| | | | | | +-- is-fullwidth-code-point@1.0.0
+| | | | | | | `-- number-is-nan@1.0.1
+| | | | | | `-- strip-ansi@3.0.1 deduped
+| | | | | +-- strip-ansi@3.0.1
+| | | | | | `-- ansi-regex@2.1.1
+| | | | | `-- wide-align@1.1.3
+| | | | |   `-- string-width@1.0.2 deduped
+| | | | `-- set-blocking@2.0.0
+| | | +-- rc@1.2.8
+| | | | +-- deep-extend@0.6.0
+| | | | +-- ini@1.3.8
+| | | | +-- minimist@1.2.5 deduped
+| | | | `-- strip-json-comments@2.0.1
+| | | +-- rimraf@2.7.1
+| | | | `-- glob@7.1.6
+| | | |   +-- fs.realpath@1.0.0
+| | | |   +-- inflight@1.0.6
+| | | |   | +-- once@1.4.0 deduped
+| | | |   | `-- wrappy@1.0.2 deduped
+| | | |   +-- inherits@2.0.4
+| | | |   +-- minimatch@3.0.4 deduped
+| | | |   +-- once@1.4.0 deduped
+| | | |   `-- path-is-absolute@1.0.1
+| | | +-- semver@5.7.1
+| | | `-- tar@4.4.13
+| | |   +-- chownr@1.1.4
+| | |   +-- fs-minipass@1.2.7
+| | |   | `-- minipass@2.9.0 deduped
+| | |   +-- minipass@2.9.0
+| | |   | +-- safe-buffer@5.1.2 deduped
+| | |   | `-- yallist@3.1.1 deduped
+| | |   +-- minizlib@1.3.3
+| | |   | `-- minipass@2.9.0 deduped
+| | |   +-- mkdirp@0.5.5 deduped
+| | |   +-- safe-buffer@5.1.2
+| | |   `-- yallist@3.1.1
+| | `-- simple-get@3.1.0
+| |   +-- decompress-response@4.2.1
+| |   | `-- mimic-response@2.1.0
+| |   +-- once@1.4.0
+| |   | `-- wrappy@1.0.2
+| |   `-- simple-concat@1.0.1
+| +-- gifencoder@2.0.1
+| | `-- canvas@2.6.1 deduped
+| +-- moment@2.29.1
+| +-- moment-duration-format@2.3.2
+| `-- node-canvas-with-twemoji-and-discord-emoji@1.1.8
+|   +-- canvas@2.6.1 deduped
+|   `-- twemoji@13.0.1
+|     +-- fs-extra@8.1.0
+|     | +-- graceful-fs@4.2.4
+|     | +-- jsonfile@4.0.0
+|     | | `-- graceful-fs@4.2.4 deduped
+|     | `-- universalify@0.1.2 deduped
+|     +-- jsonfile@5.0.0
+|     | +-- graceful-fs@4.2.4 deduped
+|     | `-- universalify@0.1.2 deduped
+|     +-- twemoji-parser@13.0.0 deduped
+|     `-- universalify@0.1.2
++-- discord.js@12.5.1
+| +-- @discordjs/collection@0.1.6
+| +-- @discordjs/form-data@3.0.1
+| | +-- asynckit@0.4.0
+| | +-- combined-stream@1.0.8
+| | | `-- delayed-stream@1.0.0
+| | `-- mime-types@2.1.28
+| |   `-- mime-db@1.45.0
+| +-- abort-controller@3.0.0
+| | `-- event-target-shim@5.0.1
+| +-- node-fetch@2.6.1 deduped
+| +-- prism-media@1.2.3
+| +-- setimmediate@1.0.5
+| +-- tweetnacl@1.0.3
+| `-- ws@7.4.2
++-- hastebin-gen@2.0.5
+| `-- node-fetch@2.6.1 deduped
++-- jumble-words@1.0.1
++-- node-fetch@2.6.1
++-- node-opus@0.3.3
+| +-- bindings@1.2.1
+| +-- commander@2.20.3
+| +-- nan@2.14.2
+| `-- UNMET OPTIONAL DEPENDENCY ogg-packet@1.0.1
+|   `-- UNMET OPTIONAL DEPENDENCY ref-struct@1.1.0
+|     +-- UNMET OPTIONAL DEPENDENCY debug@2.6.9
+|     | `-- UNMET OPTIONAL DEPENDENCY ms@2.0.0
+|     `-- UNMET OPTIONAL DEPENDENCY ref@1.3.5
+|       +-- bindings@1.5.0 deduped
+|       +-- UNMET OPTIONAL DEPENDENCY debug@2.6.9
+|       | `-- UNMET OPTIONAL DEPENDENCY ms@2.0.0
+|       `-- nan@2.14.2 deduped
++-- quick.db@7.1.3
+| +-- better-sqlite3@7.1.2
+| | +-- bindings@1.5.0
+| | | `-- file-uri-to-path@1.0.0
+| | +-- prebuild-install@5.3.6
+| | | +-- detect-libc@1.0.3 deduped
+| | | +-- expand-template@2.0.3
+| | | +-- github-from-package@0.0.0
+| | | +-- minimist@1.2.5
+| | | +-- mkdirp-classic@0.5.3
+| | | +-- napi-build-utils@1.0.2
+| | | +-- node-abi@2.19.3
+| | | | `-- semver@5.7.1 deduped
+| | | +-- noop-logger@0.1.1
+| | | +-- npmlog@4.1.2 deduped
+| | | +-- pump@3.0.0
+| | | | +-- end-of-stream@1.4.4
+| | | | | `-- once@1.4.0 deduped
+| | | | `-- once@1.4.0 deduped
+| | | +-- rc@1.2.8 deduped
+| | | +-- simple-get@3.1.0 deduped
+| | | +-- tar-fs@2.1.1
+| | | | +-- chownr@1.1.4 deduped
+| | | | +-- mkdirp-classic@0.5.3 deduped
+| | | | +-- pump@3.0.0 deduped
+| | | | `-- tar-stream@2.2.0
+| | | |   +-- bl@4.0.3
+| | | |   | +-- buffer@5.7.1
+| | | |   | | +-- base64-js@1.5.1
+| | | |   | | `-- ieee754@1.2.1
+| | | |   | +-- inherits@2.0.4 deduped
+| | | |   | `-- readable-stream@3.6.0
+| | | |   |   +-- inherits@2.0.4 deduped
+| | | |   |   +-- string_decoder@1.1.1 deduped
+| | | |   |   `-- util-deprecate@1.0.2 deduped
+| | | |   +-- end-of-stream@1.4.4 deduped
+| | | |   +-- fs-constants@1.0.0
+| | | |   +-- inherits@2.0.4 deduped
+| | | |   `-- readable-stream@3.6.0
+| | | |     +-- inherits@2.0.4 deduped
+| | | |     +-- string_decoder@1.1.1 deduped
+| | | |     `-- util-deprecate@1.0.2 deduped
+| | | +-- tunnel-agent@0.6.0
+| | | | `-- safe-buffer@5.1.2 deduped
+| | | `-- which-pm-runs@1.0.0
+| | `-- tar@6.1.0
+| |   +-- chownr@2.0.0
+| |   +-- fs-minipass@2.1.0
+| |   | `-- minipass@3.1.3 deduped
+| |   +-- minipass@3.1.3
+| |   | `-- yallist@4.0.0 deduped
+| |   +-- minizlib@2.1.2
+| |   | +-- minipass@3.1.3 deduped
+| |   | `-- yallist@4.0.0 deduped
+| |   +-- mkdirp@1.0.4
+| |   `-- yallist@4.0.0
+| `-- lodash@4.17.20
++-- snowflake-api@3.0.3
+| `-- node-fetch@2.6.1 deduped
+`-- twemoji-parser@13.0.0
+
