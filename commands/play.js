@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
     const voicechannel = message.member.voice.channel;
     if (!voicechannel) return message.channel.send("Please join a voice channel!");
 
-    if (!fs.existsSync(`./recorded-${message.author.id}.pcm`)) return message.channel.send("Your audio is not recorded!");
+    if (!fs.existsSync(`./recorded-${message.author.id}.pcm`)) return message.channel.send("Аудио не записано");
 
     const connection = await message.member.voice.channel.join();
     const stream = fs.createReadStream(`./recorded-${message.author.id}.pcm`);
@@ -16,7 +16,7 @@ module.exports.run = async (client, message, args) => {
 
     dispatcher.on("finish", () => {
         message.member.voice.channel.leave();
-        return message.channel.send("finished playing audio");
+        return message.channel.send("Окончание проигрования записи");
     })
 }
 
